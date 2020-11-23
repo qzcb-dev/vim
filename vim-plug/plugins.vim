@@ -38,6 +38,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'airblade/vim-rooter'
     " auto set indent settings
     Plug 'tpope/vim-sleuth'
+    " syntax check
+    Plug 'w0rp/ale'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " Treesitter
@@ -113,6 +115,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'szw/vim-maximizer'
     " Neovim in Browser
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+    " autocomplete
+    Plug 'ncm2/ncm2'
+    Plug 'roxma/nvim-yarp'
+    Plug 'ncm2/ncm2-bufword'
+    Plug 'ncm2/ncm2-path'
+    Plug 'ncm2/ncm2-jedi'
+    " Formatter
+    Plug 'Chiel92/vim-autoformat'
     " Rainbow brackets
     " Plug 'luochen1990/rainbow'
     " Async Linting Engine
