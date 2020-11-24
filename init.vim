@@ -51,7 +51,7 @@ source $HOME/.config/nvim/plug-config/airline.vim
 " source $HOME/.config/nvim/plug-config/illuminate.vim
 " source $HOME/.config/nvim/plug-config/vista.vim
 " source $HOME/.config/nvim/plug-config/xtabline.vim
-" source $HOME/.config/nvim/plug-config/ale.vim
+source $HOME/.config/nvim/plug-config/ale.vim
 source $HOME/.config/nvim/plug-config/quickscope.vim
 
 " Add paths to node and python here

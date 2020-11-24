@@ -19,7 +19,6 @@ let g:coc_global_extensions = [
   \ 'coc-bookmark',
   \ 'coc-yaml',
   \ 'coc-python',
-  \ 'coc-pyright',
   \ 'coc-explorer',
   \ 'coc-svg',
   \ 'coc-prettier',
@@ -31,4 +30,4 @@ let g:coc_global_extensions = [
   \ ]
   " \ 'coc-tabnine',
   " \ 'coc-highlight',
-
+"  \ 'coc-pyright',
