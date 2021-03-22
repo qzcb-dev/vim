@@ -30,6 +30,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'machakann/vim-highlightedyank'
   else
 
+    Plug 'MattesGroeger/vim-bookmarks'
     " Easymotion
     Plug 'easymotion/vim-easymotion'
     " Surround
